@@ -150,7 +150,7 @@ void fillAnArray(int arr[], int numOfElements, FILE* infill)
 	}
 }
 void playSoundFirstPart(){
-	int tempo = 100;
+	int tempo = 130;
 	int step = ((60 * 1000) / tempo)  / 4;
 	// музыка
 	int music[35][2] = {
@@ -171,7 +171,7 @@ void playSoundFirstPart(){
 	}
 }
 void playSoundSecondPart(){
-	int tempo = 100;
+	int tempo = 130;
 	int step = ((60 * 1000) / tempo)  / 4;
 
 	sound(349, step * 4);
